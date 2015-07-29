@@ -1,7 +1,13 @@
 # SeaOfCreatures
 A project for CS16 that uses structures and mutidimensional arrays.
 
-= Rules of Life =
+We are going to play a version of The Game of Life: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+Our version is ocean themed and the rules are a bit more complex. 
+
+Read the Rules of Life and the What You Need To Implement in order to understand your job as a programmer for a piece in the game of life.
+
+## Rules of Life
 
 1. All Organisms can be either HEALTHY, SICK, or DEAD
 2. All Organisms have a color of RED, ORANGE, YELLOW, GREEN, BLUE, or PURPLE
