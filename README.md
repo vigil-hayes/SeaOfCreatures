@@ -33,3 +33,27 @@ Read the Rules of Life and the What You Need To Implement in order to understand
 22. Turns are taken in a Round Robin fashion
 23. DEAD Organisms do not take Turns, but still occupy space in the matrix
 24. The Game Of Life ends when there is only 1 Organism left in the matrix *OR* there have been no changes in Organism statuses after 100 times through the list of remaining Organisms  
+
+## What You Need To Implement
+
+You are responsible for implementing a Creature or Plant structure that MUST comply with the Rules of Life. You will implement these structures in the file Creatures/ of this repository. 
+
+### 1. Implement an Organism Structure
+I provided three examples in this repository (PickyDolphin.h, BlueTuna.h, and PoisonSeaweed.h). All of the Organisms comply with the Rules of Life, but some are special (if you look in the code, you will see PickyDolphin has some dietary restrictions).
+
+Post your Organism structure name to the GauchoSpace forum so we do not have to deal with duplicates (before you post, make sure no one else has posted your Organisms structure name):
+
+If I wanted to make a new Organism structure called HungryStarfish, I would post "HungryStarfish" to the GauchoSpace forum. I would then create a file called HungryStarfish.h in the Creatures/ directory. 
+
+### Add it to the setupGameboard function in main.cpp
+
+In main.cpp, there is a function called setupGameboard. In this function, make a call to addOrganism. Follow the instructions below based on an example from PickyDolphin:
+
+```
+// Adding PickyDolphin pd to the gameboard
+PickyDolphin pd = PickyDolphin("Picky Little Dolphin", 5000, Purple);
+addOrganism(pd);
+```
+
+### Pull request
+If your fork of the code compiles, make a pull request. 
